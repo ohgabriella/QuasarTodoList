@@ -54,7 +54,7 @@ export default {
       this.tasks.splice(index, 1)
     },
     deleteTask (index) {
-      this.done.splice(index, 1)
+      this.done.splice(index, 1).then(alert('Você terminou a tarefa, parabéns!'))
     }
   }
 }
