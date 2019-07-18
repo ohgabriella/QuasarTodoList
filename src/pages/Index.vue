@@ -51,8 +51,8 @@ export default {
     deleteTask (index) {
       this.$q
         .dialog({
-          title: 'Confirm',
-          message: 'Would you like to turn on the wifi?',
+          title: 'Confirmar',
+          message: 'Gostaria de excluir a tarefa?',
           cancel: true,
           persistent: true
         })
